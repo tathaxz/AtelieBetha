@@ -1,0 +1,208 @@
+.banner-topo { background-color: #5c7c58; -bottom: 2px dashed #e2d4c3; text-align: center; padding: 40px 20px; }
+
+        body {
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            background-color: #faf7f2;
+            color: #333333;
+            margin: 0;
+            padding: 0;
+        }
+
+        .cabecalho {
+            background-color: #ffffff;
+            border-bottom: 1px solid #f0e6d8;
+            padding: 15px 20px;
+            position: sticky;
+            top: 0;
+            z-index: 10;
+        }
+
+        .caixa-topo {
+            max-width: 1000px;
+            margin: 0 auto;
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+        }
+
+        .logo {
+            display: flex;
+            align-items: center;
+            gap: 10px;
+            font-size: 22px;
+            font-weight: bold;
+            color: #292524;
+        }
+
+        .icone-rosa {
+            color: #ec4899;
+        }
+
+        .menu {
+            display: flex;
+            gap: 20px;
+        }
+
+        .menu a {
+            text-decoration: none;
+            color: #57534e;
+            font-weight: 600;
+        }
+
+        .menu a:hover {
+            color: #ec4899;
+        }
+
+        .titulo-banner {
+            font-size: 32px;
+            color: #292524;
+            margin-bottom: 10px;
+        }
+
+        .texto-banner {
+            color: #57534e;
+            max-width: 600px;
+            margin: 0 auto 20px auto;
+        }
+
+        .botao-rosa {
+            background-color: #f472b6;
+            color: #ffffff;
+            border-radius: 8px;
+            font-weight: bold;
+            padding: 12px 24px;
+            text-decoration: none;
+            display: inline-block;
+            border: none;
+            cursor: pointer;
+        }
+
+        .botao-rosa:hover {
+            background-color: #ec4899;
+        }
+
+        .catalogo {
+            max-width: 1000px;
+            margin: 40px auto;
+            padding: 0 20px;
+        }
+
+        .titulo-secao {
+            text-align: center;
+            font-size: 24px;
+            color: #292524;
+            margin-bottom: 30px;
+        }
+
+        .grade-produtos {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+            gap: 20px;
+        }
+
+        .cartao-produto {
+            background-color: #ffffff;
+            border-radius: 12px;
+            border: 1px solid #f0e6d8;
+            padding: 15px;
+            text-align: center;
+            transition: transform 0.2s;
+        }
+
+        .cartao-produto:hover {
+            transform: translateY(-4px);
+        }
+
+        .imagem-produto {
+            width: 100%;
+            height: 180px;
+            object-fit: cover;
+            border-radius: 8px;
+            margin-bottom: 12px;
+        }
+
+        .titulo-produto {
+            font-size: 18px;
+            color: #292524;
+            margin: 5px 0;
+        }
+
+        .preco-produto {
+            color: #ec4899;
+            font-weight: bold;
+            font-size: 18px;
+            margin-bottom: 12px;
+        }
+
+        .secao-equipe {
+            background-color: #f5f5f4;
+            border-top: 1px solid #e7e5e4;
+            padding: 40px 20px;
+            text-align: center;
+        }
+
+        .caixa-equipe {
+            display: flex;
+            justify-content: center;
+            gap: 20px;
+            flex-wrap: wrap;
+        }
+
+        .cartao-membro {
+            background-color: #ffffff;
+            padding: 15px 20px;
+            border-radius: 12px;
+            border: 1px solid #e7e5e4;
+            display: flex;
+            align-items: center;
+            gap: 12px;
+            width: 200px;
+        }
+
+        .avatarA {
+            width: 40px;
+            height: 40px;
+            background-color: #fce7f3;
+            color: #be185d;
+            font-weight: bold;
+            border-radius: 50%;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+        }
+
+        .avatarB {
+            width: 40px;
+            height: 40px;
+            background-color: #ecfccb;
+            color: #4d7c0f;
+            font-weight: bold;
+            border-radius: 50%;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+        }
+
+        .texto-membro {
+            text-align: left;
+        }
+
+        .nome-membro {
+            font-weight: bold;
+            margin: 0;
+            color: #292524;
+        }
+
+        .cargo-membro {
+            font-size: 12px;
+            color: #78716c;
+            margin: 0;
+        }
+
+        .rodape {
+            background-color: #292524;
+            color: #ffffff;
+            text-align: center;
+            padding: 20px;
+            font-size: 14px;
+        }
